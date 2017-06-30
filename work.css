@@ -57,13 +57,18 @@ a:hover, a:focus{
     background: none;
     border:none;
 }
+.navbar-default .navbar-nav>li{
+    margin-left: ;
+
+}
 .navbar-default .navbar-nav>li>a{
     font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
     color: #95a5a6;
-    padding: 11px 0;
+    padding: 11px 10px;
     text-align: center;
+    
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
     color: #fff;
@@ -92,7 +97,8 @@ a:hover, a:focus{
 }
 .jumbotron{
     padding-top: 5px;
-    background: #2c3e50; url(pix/3.jpg) no-repeat;
+    background: rgba(44,62,80,0.9) url(pix/6.jpg) no-repeat;   /*#2c3e50*/
+    /*bacground-image: url(pix/6.jpg) no-repeat; */
     background-size: cover;
     /*max-height:800px;
     margin: 0; */
@@ -187,6 +193,7 @@ a:hover, a:focus{
     margin: 0;
     padding: 0;
     opacity: 0.6;
+    height:300px;
 }
 .gallery-inner, .caption h4{
     color: #fff;
@@ -291,11 +298,16 @@ a:hover, a:focus{
 #carousel-creative-process .item p{
     padding: 0 30px;
 }
+
 /* end */
 
 /* latest work */
 
-
+/* footer-Social icon*/
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
 
 
 
