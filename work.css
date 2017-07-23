@@ -1,0 +1,1764 @@
+body{
+ font-family:'Raleway', Helvetica, Arial;
+    font-size: 16px;
+    color: #666666;
+    font-weight: 400;
+    letter-spacing: 1px
+}
+p{
+    line-height: 30px;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #333333;
+    text-transform: uppercase;
+    font-family: 'Raleway', helvetica, Arial;
+    font-weight: 700;
+}
+a{
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover, a:focus{
+    color: #1f42c6;
+}
+.btn-default{
+    border-radius: 2px;
+    border: 1px solid #bdc3c7;
+    font-size: 14px;
+    color: #95a5a6;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 11px 20px;
+}
+.btn-default:hover{
+    background: #fff;
+    color: #3498db;
+    border: 1px solid #3498db;
+}
+.btn:active{
+    box-shadow: none;
+}
+/* end */
+
+/* logo */
+.navbar-brand{
+    width: 179px;
+    height: 32px;
+    padding: 0;
+    margin: 0;
+    text-indent: -999px;
+}
+/* end */
+
+/* Navigation */
+.navbar-default{
+    padding-top: 5px;
+    background: none;
+    border:none;
+}
+.navbar-default .navbar-nav>li{
+    margin-left: ;
+
+}
+.navbar-default .navbar-nav>li>a{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #95a5a6;
+    padding: 11px 10px;
+    text-align: center;
+    
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+    color: #fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background: none;
+    outline: 0;
+    color: #fff;
+}
+.navbar-toggle{
+    border: none;
+    margin-top: 0;
+    margin-right: 0;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background: none;
+}
+.navbar-default .navbar-collapse{
+    border: none;
+    background: rgba(255,255,255, 0.05);
+    border-radius: 2px;
+    box-shadow: none;
+}
+.jumbotron{
+    padding-top: 5px;
+    background: rgba(44,62,80,0.9) url(pix/6.jpg) no-repeat;   /*#2c3e50*/
+    /*bacground-image: url(pix/6.jpg) no-repeat; */
+    background-size: cover;
+    /*max-height:800px;
+    margin: 0; */
+}
+.jumbotron h1{
+    color: #fff;
+    font-weight: 300;
+    margin: 0 0 60px 0;
+}
+.jumbotron h1 span{
+    color: #3AF325;
+    font-weight: 700;
+}
+.jumbotron h3{
+    color:#95a5a6;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: none;
+    margin: 0 0 60px 0;
+}
+.jumbotron h3 span{
+    color: #fff;
+}
+.jumbotron .btn-primary {
+    border-radius: 2px;
+    border: 1px solid #fff;
+    background: rgba(255,255,255,0.05);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 16px 30px;
+}
+.jumbotron .btn-primary:hover{
+    background: rgba(255,255,255,0.1)
+}
+.services{
+    padding: 60px 0;
+    border-bottom: 1px solid #e3e3e3;
+}
+.services h4{
+    margin-bottom: 30px;
+}
+.services p{
+    margin-bottom: 40px;
+}
+.services .more{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+}
+.services-web, .services-dev{
+    margin-bottom: 60px;
+}
+.icon-sprite{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background: url(pix/sprite-copy.png) no-repeat;
+    background-position: top;
+    margin-bottom: 20px;
+}
+.icon-sprite.sprite-web{
+    background-position: top -32px;
+}
+.icon-sprite.sprite-dev{
+    background-position: 0 -32px;
+}
+.icon-sprite.sprite-sup{
+    background-position: 0 -64px;
+ }
+/* end */
+
+/* latest work */
+.heading{
+    padding: 60px 0;
+}
+.control-right{
+    padding: 50px 0 0 0;
+}
+.gallery{
+    background: #2c3e50;
+}
+.gallery-inner{
+    position: relative;
+    width: 25%;
+    float: left;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.gallery-inner img{
+    margin: 0;
+    padding: 0;
+    opacity: 0.6;
+    height:300px;
+}
+.gallery-inner, .caption h4{
+    color: #fff;
+}
+.gallery-inner, .caption small{
+    color: rgba(255,255,255,0.6);
+}
+.gallery-inner .caption{
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(246,156,18,0.6);
+    -webkit-transition: opacity .1s ease-in-out;
+}
+.gallery-inner:hover .caption{
+    opacity: 1;
+}
+.gallery-inner .caption .btn-trigger{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+.gallery-inner .caption .btn-trigger a{
+    width: 44px;
+    height: 44px;
+    text-indent: -9999px;
+    background: transparent;
+    /* url(bootstrap/css/bootstrap.min.css/glyphicon glyphicon-globe);
+   /* background-position: left bottom;         put in the bakground pic for  web-link, more-info */
+    border: 1px solid #fff;
+}
+.gallery-inner .caption .btn-trigger a:hover{
+    background-color: rgba(255,255,255,0.1);
+}
+.gallery-inner .caption .btn-trigger .web-link{
+    /* background-positin: ;   cut out the bakground position on the pic u donloaded */
+    position: absolute;
+    left: 50%;
+    margin-left: -44px;
+}
+.gallery-inner .caption .btn-trigger .more-info{
+    /* background-positin: ;   cut out the bakground position on the pic u donloaded */
+    position: absolute;
+    right: 50%;
+    margin-right: -43px;
+}
+/* end latest work */
+
+/* creative process */
+.creative-process{
+    padding: 0 0 60px 0;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 100%;
+    margin-bottom: -44px;
+    left: 0; /* try 62% and text align: left*/
+    z-index: 15;
+    width: 100%;
+    padding-left: 0;
+    margin-left: -100px;
+    text-align: right;
+    list-style: none;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0 0 0 -6px;
+    text-indent: 0;
+    cursor: pointer;
+   /* background-color: #000\9; */
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #bdc3c7;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 11px 10px;
+}
+.carousel-indicators .active {
+    width: auto;
+    height: auto;
+    margin: 0 0 0 -6px;;
+    background: transparent;
+    border: 1px solid #3498db;
+    colour: #3498db;
+}
+#carousel-creative-process .item{
+    padding-top: 104px;
+}
+#carousel-creative-process .item img{
+    margin-bottom: 60px;
+}
+#carousel-creative-process .item h4{
+    margin-bottom: 30px;
+}
+#carousel-creative-process .item p{
+    padding: 0 30px;
+}
+
+/* end */
+
+/* latest work */
+
+/* footer-Social icon*/
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+
+
+
+
+
+
+
+}
