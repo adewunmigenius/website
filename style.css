@@ -327,7 +327,9 @@ a:hover, a:focus{
     width: 20px;
     height: 20px;
 }
-
+footer {
+    margin-bottom: 30px;
+}
 
 
 
