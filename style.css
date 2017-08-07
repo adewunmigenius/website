@@ -232,7 +232,7 @@ a:hover, a:focus{
     text-indent: -9999px;
     background: transparent;
     /* url(bootstrap/css/bootstrap.min.css/glyphicon glyphicon-globe);
-   /* background-position: left bottom;         put in the bakground pic for  web-link, more-info */
+   /* background-position: left bottom;       put in the bakground pic for  web-link, more-info */
     border: 1px solid #fff;
 }
 .gallery-inner .caption .btn-trigger a:hover{
