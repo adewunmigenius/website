@@ -307,7 +307,20 @@ a:hover, a:focus{
 
 /* end */
 
-/* latest work */
+/* testimonials */
+.carousel-control.left {
+    background: none;
+}
+.carousel-control.right {
+    background: none;
+}
+.glyphicon-chevron-left:before {
+    color: #000;
+}
+.glyphicon-chevron-right:before {
+    color: #000;
+}
+/* end */
 
 /* footer-Social icon*/
 .social-icon {
