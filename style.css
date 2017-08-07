@@ -308,6 +308,11 @@ a:hover, a:focus{
 /* end */
 
 /* testimonials */
+.testimonials blockquote p {
+    width: 80%;
+    text-align:center;
+    margin: 0 auto;
+}
 .carousel-control.left {
     background: none;
 }
@@ -322,6 +327,10 @@ a:hover, a:focus{
 }
 /* end */
 
+.call-to-action h2{
+    margin-bottom: 40px;
+}
+
 /* footer-Social icon*/
 .social-icon {
     width: 20px;
@@ -330,7 +339,6 @@ a:hover, a:focus{
 footer {
     margin-bottom: 30px;
 }
-
 
 
 
