@@ -254,7 +254,7 @@ a:hover, a:focus{
 
 /* creative process */
 .creative-process{
-    padding: 0 0 60px 0;
+    padding: 0 0 20px 0;
 }
 .carousel-indicators {
     position: absolute;
@@ -296,7 +296,7 @@ a:hover, a:focus{
     padding-top: 104px;
 }
 #carousel-creative-process .item img{
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 #carousel-creative-process .item h4{
     margin-bottom: 30px;
